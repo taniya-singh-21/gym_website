@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Singh Fitness Club</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+      body{
+    background: url(ss.jpg);
+    background-size: cover;
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="left">
+             <!-- left  box for logo -->
+             <img src="logo.jpg" alt="loading.....">
+             <div id="ss">Singh Fitness Club</div>
+        </div>
+        <div class="mid">
+             <!-- mid box for navegation bar -->
+             <ul class="navbar">
+                 <li><a href="#" class="active">Home</a></li>
+                 <li><a href="#" >About Us</a></li>
+                 <li><a href="#" >Fitness</a></li>
+                 <li><a href="#" >Contact Us</a></li>
+             </ul>
+        </div>
+        <div class="right">
+            <!-- right box for contact button  -->
+            <button class="btn">Call Us</button>
+            <button class="btn">Email Us</button>
+        </div>
+    </header>
+   <div class="container">
+       <H1>Join Us</H1>
+       <form action="C:\xampp\htdocs\html\connection.php" method="POST">
+       <div class="form-group">
+        <label for="name">Name&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+           <input type="text" name="" id="name" placeholder="Enter your Name">
+        </div>
+           <div class="form-group">
+               <label for="age">Age&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+               <input type="text" name="age" placeholder="Enter your Age">
+        </div>
+           <div class="form-group">
+               <label for="gender">Gender&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+               <input type="text" name="gender" placeholder="Enter your Gender">
+        </div>
+           <div class="form-group">
+               <label for="locality">Locality&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+               </label>
+               <input type="text" name="locality" placeholder="Enter your Locality">
+        </div>
+           <div class="form-group">
+               <label for="contact">Contact No.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+               <input type="text" name="contact" placeholder="Enter your Contact no.">
+        </div>
+        <button class="btn">Submit</button>
+        <button class="btn" type="reset">Reset</button>
+    </form>
+   </div>
+</body>
+</html>
